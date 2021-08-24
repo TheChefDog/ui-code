@@ -1,0 +1,32 @@
+@import url('https://rsms.me/inter/inter.css');
+
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+html { 
+  font-family: 'Inter', sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;   
+}
+
+.dragRegion {
+    -webkit-user-select: none;
+    -webkit-app-region: drag;
+}
+
+.activeGroup {
+  background: linear-gradient(180deg, #ED71B6 -0.05%, #922EBE 174%);
+}
+
+.regularTextGradient {
+  background: linear-gradient(272.28deg, #ED71B6 61.18%, #922EBE 129.11%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+::-webkit-input-placeholder {
+  color: "#676B7C"
+}
